@@ -1,6 +1,6 @@
 {
   "name": "san-router",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Router for San",
   "scripts": {
     "build": "rm -rf dist && webpack && uglifyjs dist/san-router.source.js -mco dist/san-router.js",
@@ -18,7 +18,7 @@
     "eslint-plugin-babel": "^4.1.2",
     "fecs": "^1.4.1",
     "glob": "^7.1.1",
-    "san": "^3.0.3-rc.8",
+    "san": "^3.4.2",
     "uglify-js": "^2.7.5",
     "webpack": "^2.2.0-rc.3",
     "webpack-dev-server": "^2.2.0-rc.0"
@@ -30,13 +30,12 @@
     "dist"
   ],
   "dependencies": {
-    "babel-polyfill": "^6.23.0",
-    "mini-event": "^2.3.0"
+    "babel-polyfill": "^6.23.0"
   },
   "author": "otakustay",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ecomfe/san-router.git"
+    "url": "https://github.com/baidu/san-router.git"
   },
   "license": "MIT"
 }
